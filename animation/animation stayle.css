@@ -1,0 +1,312 @@
+/*task*/
+.task1{
+height: 100px;
+width: 100px;
+background:red;
+animation-name:square;
+animation-duration:4s;
+animation-delay:0s;
+animation-iteration-count:normal;
+animation-direction:normal;
+animation-timing-function:ease;
+animation-fill-mode:forwards;
+
+
+
+}
+
+@keyframes square {
+0%{
+    /*translate:0 0;
+    rotate: 0;*/
+    background: aqua;
+}    
+25%{
+    /*translate:0 500px;
+    rotate: 90deg;*/
+    background: green;
+}
+50%{
+    /*translate:500px 500px;
+    rotate: 180deg;*/
+    background: blue;
+}
+75%{
+    /*translate:500px 0;
+    rotate: 270deg;*/
+    background:yellow;
+}
+100%{
+   /* translate:0 0;
+    rotate: 360deg;*/
+    background:red;
+}
+}
+
+/*task2*/
+
+.task2{
+    display: grid;
+    grid-template-columns:repeat(2,200px);
+    gap:10px
+}
+.task21{
+    background-color:gray;
+    height: 100px;
+    width: 100px;
+  
+    
+}
+.task211{
+    background-color:green;
+    margin:20px;
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    gap: 10px;
+    transform: rotate(60deg);
+}
+.task22{
+    background-color:gray;
+    height: 100px;
+    width: 100px;
+    gap: 10px;
+}
+.task222{
+    background-color:green;
+    margin:20px;
+    padding: 20px;
+    height: 20px;
+    width: 20px;
+    gap: 10px;
+    transform: rotate(45deg);
+}
+/*task3*/
+.task3{
+    height: 100px;
+    width: 100px;
+    background:orange;
+    animation-name:square;
+    animation-duration:4s;
+    animation-delay:0s;
+    animation-iteration-count:normal;
+    animation-direction:normal;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+    
+    
+    
+    }
+    
+    @keyframes square {
+    0%{
+        /*translate:0 0;
+        rotate: 0;*/
+        background: red;
+    }    
+    25%{
+        /*translate:0 500px;
+        rotate: 90deg;*/
+        background: green;
+    }
+    50%{
+        /*translate:500px 500px;
+        rotate: 180deg;*/
+        background: yellow;
+    }
+    75%{
+        /*translate:500px 0;
+        rotate: 270deg;*/
+        background:blue;
+    }
+    100%{
+       /* translate:0 0;
+        rotate: 360deg;*/
+        background:orange;
+    }
+    }
+    /*task4*/
+    .task4{
+        height:100px;
+        width: 100px;
+        transform: translate( 200px,0px);
+    }
+  /*task5*/
+
+  .task51{
+    width: 300px;
+    height: 200px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50px;
+    top:100px;
+  }
+  .task52{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    transform: rotate(-30deg);
+
+  }
+  /*task6*/
+  .task61{
+    width: 300px;
+    height: 200px;
+    opacity: 0.5;
+    position: absolute;
+    left: 50px;
+    top:100px;
+  }
+  .task62{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    transform-origin:right bottom;
+    transform: rotate(30deg);
+  }
+/*task7*/
+.task7{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.task71{ 
+    height: 50px;
+   width: 100px;
+   border-radius: 10px;
+    color: aliceblue;
+    background-color: blue;
+    transition: 1s;
+}
+.task71:hover{
+    width:200px;
+    height:100px;
+}
+
+/*task8*/
+.task8{
+    height: 100px;
+    width: 100px;
+    background:red;
+    animation-name:square;
+    animation-duration:4s;
+    animation-delay:0s;
+    animation-iteration-count:normal;
+    animation-direction:normal;
+    animation-timing-function:ease;
+    animation-fill-mode:forwards;
+    
+    
+    
+    }
+    
+    @keyframes square {
+    0%{
+        translate:0 0;
+        background:red;
+    }    
+    25%{
+        translate:200px 0px;
+    
+        background: yellow;
+    }
+    50%{
+        translate:200px 200px;
+        
+        background: blue;
+    }
+    75%{
+        translate: 0px 200px;
+      
+        background:green;
+    }
+    100%{
+        translate:0 0;
+      
+        background:red;
+    }
+    }
+    /*task9*/
+    .task9{
+        
+        height: 400px;
+        width: 200px;
+        padding:30px;
+        box-shadow:5px 5px 10px gray;
+        transition: 2s;
+      
+       
+        justify-content: center;
+    }
+    .icon{
+        width:20px;
+        height: 20px;
+    }
+    .dollar{
+        text-align: center;
+        background-color: aqua;
+    }
+    .button{
+        display: flex;
+        justify-content: center;
+        
+    }
+    .button1{ border:solid rgb(195, 195, 195);
+        border-radius: 2px;
+        color: blue;
+        background-color: aliceblue;
+        transition: 1s;
+    }
+    .task9:hover{
+        width: 300px;
+        height: 500px;
+
+    }
+    .button1:hover{
+        background-color: blue;color: aliceblue;
+    }
+    /*task10*/
+    .battery{
+       border: solid black;
+        width: 100px;
+        height:50px;
+    
+    }
+    .charge{
+    height: 50px;
+    width:100px;
+    background-color:red;
+    animation-name: square;
+animation-duration: 4s;
+animation-fill-mode: forwards;
+ 
+    
+    }
+    @keyframes square{
+     0%{
+        background-color: red;
+        width: 0;
+     }
+     50%{
+        background-color:yellow;
+     }
+     100%{
+        background-color: green;
+     }
+    }
+
+
+    .mini{
+        width:10px;
+        height: 20px;
+        background-color: black;
+        position: absolute;
+        left: 110px;
+        top:25px;
+
+    }
